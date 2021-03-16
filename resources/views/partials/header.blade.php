@@ -13,7 +13,7 @@
         <a class="nav-link" href="{{route('contatti')}}">contatti</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Shop</a>
+        <a class="nav-link" href="{{route('Shop Dresses')}}">Shop</a>
       </li>
     </ul>
   </div>
