@@ -4,7 +4,7 @@
 
 @section ('content')
 <h1>Shop Dresses</h1>
-<p>
+<div>
     @foreach ($vestiti as $vestito)
     <h4>Id capo {{$vestito->Id}}</h4>
     <ul>
@@ -13,5 +13,5 @@
         <li>{{$vestito->dettagli_prodotto}}</li>
         <li>{{$vestito->taglia}}</li>
     </ul>
-</p>
+</div>
 @endsection
